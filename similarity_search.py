@@ -4,8 +4,8 @@ import numpy as np
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
-# Define the embeddings directory
-EMBEDDINGS_DIR = Path("embeddings")
+# Define the embeddings directory with absolute path
+EMBEDDINGS_DIR = Path("/Users/jonathanpolitzki/Desktop/Coding/mcp-text-to-embedding/embeddings")
 
 def load_all_embeddings() -> Dict[str, np.ndarray]:
     """
