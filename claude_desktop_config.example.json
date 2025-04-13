@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "text-embeddings": {
+            "command": "python",
+            "args": [
+                "/Users/jonathanpolitzki/Desktop/Coding/mcp-text-to-embedding/mcp_server.py"
+            ],
+            "env": {
+                "OPENAI_API_KEY": "your_openai_api_key_here"
+            },
+            "cwd": "/Users/jonathanpolitzki/Desktop/Coding/mcp-text-to-embedding"
+        }
+    }
+} 
